@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+
+
+.watch{
+    padding: 20px ;
+    font-size: 50px;
+}
+
+.button{
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.add_push{
+    color: darkgray;
+}
