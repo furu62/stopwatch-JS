@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+.back{
+    background-color:aqua;
+    width: 400px;
+    height: 300px;
+}
+
+#display{
+    width: 352px;
+    height: 30px;
+    margin: 10px;
+    background-color: black;
+    border: 0px;
+    color: white;
+    text-align: right;
+    
+}
+
+
+
+button{
+    width: 85px;
+    height: 30px;
+    margin: 1px;
+    border-radius: 4px;
+    font-size: 20px;
+
+}
+
+.buttons{
+    margin-left: 10px;
+}
+
+#ac{
+    width: 175px;
+}
+
+#equal{
+    width: 175px;
+}

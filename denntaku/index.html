@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>  
+    <link rel="stylesheet" href="./style.css">
+    <title>電卓</title>
+  </head>
+
+  <body>
+    <div class="back">
+      <div class="denntaku">
+        <input type="text" id="display" value="0">
+      </div>
+
+      <div class="buttons">
+        <button id="7" onclick="appendNumber(7)">7</button>
+        <button id="8" onclick="appendNumber(8)">8</button>
+        <button id="9" onclick="appendNumber(9)">9</button>
+        <button id="plus" onclick="appendOperator('+')">+</button>
+      </div>
+
+      <div class="buttons">
+       <button id="4" onclick="appendNumber(4)">4</button>
+       <button id="5" onclick="appendNumber(5)">5</button>
+        <button id="6" onclick="appendNumber(6)">6</button>
+        <button id="minus" onclick="appendOperator('-')">-</button>
+      </div>
+
+      <div class="buttons">
+        <button id="1" onclick="appendNumber(1)">1</button>
+        <button id="2" onclick="appendNumber(2)">2</button>
+        <button id="3" onclick="appendNumber(3)">3</button>
+        <button id="multiply" onclick="appendOperator('*')">*</button>
+      </div>
+
+      <div class="buttons">
+        <button id="zero" onclick="appendNumber(0)">0</button>
+        <button id="zero_zero" onclick="appendNumber('00')">00</button>
+        <button id="dot" onclick="appendDot()">.</button>
+        <button id="dividing" onclick="appendOperator('/')">/</button>
+      </div>
+
+      <div class="buttons">
+        <button id="ac" onclick="clearDisplay()">AC</button>
+        <button id="equal" onclick="calculate()">=</button>
+      </div>
+    </div>
+    
+
+
+    <script src="main.js"></script>
+  </body>
+</html>
